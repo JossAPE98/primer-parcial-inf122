@@ -1,0 +1,185 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray:#2B2E34
+    --yelow:#d1ae31
+    --gray-blue:#0D1423 
+    --purple: #6F2CFF;
+    --light-purple: #EFE9F9;
+    --red-heart: #A50954;
+    --blue-heart: #ACD9B2;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #0C151D;
+    
+.principal{
+   
+    width: 1728px;
+    height: 1999px;
+    display: flex;
+    margin: 5px;
+   
+    flex-direction: column;
+}
+.caja1{
+    
+    display: flex;
+    width: 631px;
+    height: 215px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.subcaj1{
+    
+    width: 156px;
+    height: 156px;
+    justify-content: center;
+}
+.subcaj2{
+    
+    width: 372px;
+    height: 156px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.imagen1{
+    width: 150px;
+    height: 150px;
+    border-radius: 192px;
+}
+.titulo{
+    color: #F1F2F4;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.parrafo{
+    width: 372px;
+    color: #A3ABB2;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.caja2{
+    
+    display: flex;
+    flex-direction:row;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.ca2{
+   
+    width: 148px;
+    height: 148px;
+    
+
+    
+}
+.c{
+    display: flex;
+width: 148px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.numero{
+    color: #A3ABB2;
+
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.letras{
+    color: #A3ABB2;
+
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.caja3{
+  
+display: flex;
+width: 618px;
+height: 80px;
+justify-content: center;
+align-items: flex-start;
+gap: 38px;
+flex-shrink: 0;
+}
+.botones{
+    background-color: yellow;
+    width: 290px;
+    height: 80px;
+    flex-shrink: 0;
+
+}
+.Contacto{
+    width: 290px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0px solid #3E64AA;
+    background: #171F26;
+}
+buttom{
+    color: #A3ABB2;
+
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.5px;
+}
+.caja4{
+   
+    width: 756px;
+    height: 116px;
+    display: flex;
+
+}
+.bloque1{
+    width: 349.595px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 0px solid #3E64AA;
+
+background: #0C151D;
+}
+.par{
+    width: 348.553px;
+color: #A3ABB2;
+
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.5px;
+}
